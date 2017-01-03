@@ -3,3 +3,4 @@ Temp/
 Builds/
 *.sln
 obj/
+*.csproj
