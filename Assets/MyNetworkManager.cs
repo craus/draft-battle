@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.Networking;
 
-public class MyNetworkManager : MonoBehaviour
+public class MyNetworkManager : NetworkManager
 {
+
     string message = null;
     public bool isAtStartup = true;
 
@@ -14,6 +15,7 @@ public class MyNetworkManager : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.S)) {
                 SetupServer();
             }
+            //match
 
             if (Input.GetKeyDown(KeyCode.C)) {
                 SetupClient();
