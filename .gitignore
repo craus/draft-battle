@@ -4,3 +4,4 @@ Builds/
 *.sln
 obj/
 *.csproj
+Assets/Photon Unity Networking/Resources/PhotonServerSettings.asset
